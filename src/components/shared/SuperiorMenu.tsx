@@ -5,7 +5,9 @@ import Logo from "./Logo";
 import UserMenu from "./UserMenu";
 import { useUser } from "@/data/hooks/useUser";
 
-export default function MenuSuperior() {
+import React from "react";
+
+const SuperiorMenu = () => {
   const { user } = useUser();
 
   return (
@@ -18,4 +20,6 @@ export default function MenuSuperior() {
       </nav>
     </header>
   );
-}
+};
+
+export default SuperiorMenu;

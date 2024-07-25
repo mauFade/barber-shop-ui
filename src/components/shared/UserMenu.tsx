@@ -15,7 +15,9 @@ export interface UserMenuProps {
   user: User;
 }
 
-export default function UserMenu(props: UserMenuProps) {
+import React from "react";
+
+const UserMenu = (props: UserMenuProps) => {
   const { logout } = useUser();
 
   return props.user ? (
@@ -45,4 +47,6 @@ export default function UserMenu(props: UserMenuProps) {
       </DropdownMenuContent>
     </DropdownMenu>
   ) : null;
-}
+};
+
+export default UserMenu;

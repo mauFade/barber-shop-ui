@@ -1,7 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Logo() {
+import React from "react";
+
+const Logo = () => {
   return (
     <Link href="/" className="flex items-center h-14">
       <Image
@@ -28,4 +30,6 @@ export default function Logo() {
       </div>
     </Link>
   );
-}
+};
+
+export default Logo;

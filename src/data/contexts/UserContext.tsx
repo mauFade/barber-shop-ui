@@ -1,4 +1,5 @@
-import { useRouter } from "next/router";
+"use client";
+import { useRouter } from "next/navigation";
 import { createContext, useCallback, useEffect, useState } from "react";
 import useLocalStorage from "../hooks/useLocalStorage";
 
