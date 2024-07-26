@@ -1,4 +1,4 @@
-interface Professional {
+export interface Professional {
   id: string;
   name: string;
   description: string;
