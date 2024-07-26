@@ -1,4 +1,4 @@
-"use-client";
+"use client";
 
 import { UserProvider } from "@/data/contexts/UserContext";
 
